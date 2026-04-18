@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI';
+    direction: rtl;
+    background: #f1f3f6;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #1e90ff, #007bff);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* COMPARE */
+.compare-section {
+    padding: 20px;
+}
+
+#compare {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* BOOKING */
+.booking {
+    padding: 20px;
+}
+
+#bookings {
+    margin-top: 10px;
+}

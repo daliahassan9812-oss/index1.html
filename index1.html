@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mall System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🏬 Mall System</h1>
+
+    <div class="controls">
+        <input type="text" id="search" placeholder="ابحث عن محل...">
+        
+        <select id="filter">
+            <option value="all">كل المحلات</option>
+            <option value="ملابس">ملابس</option>
+            <option value="رياضة">رياضة</option>
+        </select>
+    </div>
+</header>
+
+<section id="shopList" class="grid"></section>
+
+<section class="compare-section">
+    <h2>📊 المقارنة</h2>
+    <div id="compare"></div>
+</section>
+
+<section class="booking">
+    <h2>📅 حجز محل</h2>
+    <form id="bookingForm">
+        <input type="text" id="userName" placeholder="اسمك" required>
+        <input type="text" id="shopName" placeholder="اسم المحل" required>
+        <button>احجز</button>
+    </form>
+
+    <div id="bookings"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
